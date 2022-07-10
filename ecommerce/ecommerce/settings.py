@@ -24,12 +24,13 @@ SECRET_KEY = '0-j5l83$l9ctzclro+bze-u^d(n+xe1^$$v8d3v!bd=fkenm6z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['learn-py-ecommerce.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['learn-py-ecommerce.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'my_apps.EHomePage',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
